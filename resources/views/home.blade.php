@@ -386,19 +386,19 @@
 										<style>
 										
 										</style>
-										<div class="col-md-5">
+										<div class="col-md-4">
 											<div class="card">
 												<div class="card-body">
 													<div class="progress-card">
 														<div class="d-flex justify-content-between mb-">
 															<span class="text-muted">Faculty and Staff</span>
-															<span class="text-muted fw-bold"> $data ['countStaff</span>
+															<span class="text-muted fw-bold"> {{$staff+$faculty}}</span>
 														</div>
 													</div>
 													<div class="progress-card">
 														<div class="d-flex justify-content-between mb-1">
-															<span class="text-muted">Guest</span>
-															<span class="text-muted fw-bold"></span>
+															<span class="text-muted">Student and Guest</span>
+															<span class="text-muted fw-bold">{{$student+$guest}}</span>
 														</div>
 													
 													</div>
