@@ -182,16 +182,7 @@
 								<p>See Driver's history</p>
 								<span class="badge badge-danger"></span>
 							</a>
-						</li>
-						<!-- @if(Auth::user()->user_type != 2 && Auth::user()->user_type != 3 && Auth::user()->user_type != 4)
-						<li class="nav-item active">
-							<a href="/payment">
-								<i class="la la-money"></i>
-								<p>Payment</p>
-								<span class="badge badge-danger"></span>
-							</a>
-						</li>
-						@endif		 -->
+						</li>-->
 						@if(Auth::user()->user_type != 2 && Auth::user()->user_type != 3 && Auth::user()->user_type != 4)
 						<li class="nav-item active">
 							<a href="/category">
