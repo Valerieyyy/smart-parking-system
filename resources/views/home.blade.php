@@ -183,16 +183,6 @@
 								<span class="badge badge-danger"></span>
 							</a>
 						</li>
-						@if(Auth::user()->user_type != 2 && Auth::user()->user_type != 3 && Auth::user()->user_type != 4)
-						<li class="nav-item active">
-							<a href="/receipt">
-								<i class="la la-newspaper-o"></i>
-								<p>Receipt Slip</p>
-								<span class="badge badge-danger"></span>
-								
-							</a>
-						</li>
-						@endif
 						<!-- @if(Auth::user()->user_type != 2 && Auth::user()->user_type != 3 && Auth::user()->user_type != 4)
 						<li class="nav-item active">
 							<a href="/payment">
@@ -221,16 +211,7 @@
 							</a>
 						</li>
 						@endif	
-						@if(Auth::user()->user_type != 2 && Auth::user()->user_type != 3 && Auth::user()->user_type != 4)
-						<li class="nav-item active">
-							<a href="/">
-								<i class="la la-paper-plane"></i>
-								<p>Generate Reports</p>
-								<span class="badge badge-danger"></span>
-								
-							</a>
-						</li>
-						@endif	
+
 					</ul>
 				</div>
 			</div>
