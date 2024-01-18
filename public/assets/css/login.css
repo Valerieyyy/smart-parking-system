@@ -1,0 +1,36 @@
+
+
+.gradient-custom-2 {
+    
+    /* fallback for old browsers */
+    background-image: url("../img/363788242_204167206063038_4426814697826754371_n.jpg");
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: url("../img/363788242_204167206063038_4426814697826754371_n.jpg");
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("../img/background-video.mp4");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+.background {
+    background-image: url("../img/363788242_204167206063038_4426814697826754371_n.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    /* background-size: cover; */
+}

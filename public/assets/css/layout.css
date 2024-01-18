@@ -1,0 +1,88 @@
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../img/400248108_1054206455601479_4846831771848757290_n.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset;
+  
+  }
+
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  @keyframes example {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  header.masthead .masthead-heading {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.25rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  /* WAVIY */
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 40px;
+}
+.waviy span {
+  font-family: 'Rubik Distressed', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
